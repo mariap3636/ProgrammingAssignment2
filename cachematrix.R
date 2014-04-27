@@ -1,12 +1,6 @@
-    create a square matrix that I know is invertible
-    invoke makeCacheMatrix() function passing it the matrix I created.  This returns a list of functions.
-    invoke cacheSolve() function passing it the list of functions returned.  This should calculate the matrix and save it in the cache.
-    invoke cacheSolve() function a second time passing to it the list of functions.  On this second invocation you should see the message.
-
-## Put comments here that give an overall description of what your
+## input foR this function is a square matriX.  Output is a list of functions 
 ## functions do
 
-## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -27,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## input for the function cachesolve is the list of functions returned by makeCacheMatrix; it should calculate the matrix and save it in the cache.    
 
 cacheSolve <- function(x=list(), ...) {
         ## Return a matrix that is the inverse of 'x'
